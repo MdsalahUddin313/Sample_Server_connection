@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add"
+    android:gravity="center"
+    android:id="@+id/button1"
+    android:textColor="@android:color/white"
+    android:background="@android:color/holo_green_dark"
+   ></Button>
+  <TextView
+      android:layout_below="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/Text_one_id"></TextView>
+</RelativeLayout>
